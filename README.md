@@ -1,12 +1,12 @@
 # using-LSTm-to-financial-prediction
-just using kinds of method of neural network to prediction financial market
-使用Long Short Term Memory (LSTM)长短期记忆神经网络去预测金融市场价格
-使用过去20天的历史数据（开盘价，收盘价，最高价，最低价，交易量）回归预测
-raw_data.csv 从Tushare中获取的股票数据
-preprocess_data.py对交易量进行归一化，生成stock_data.csv
-lstm.py搭建LSTM网络并进行预测，将注释删除可以查看每次训练20次后的预测价格
+#just using kinds of method of neural network to prediction financial market
+######使用Long Short Term Memory (LSTM)长短期记忆神经网络去预测金融市场价格
+######使用过去20天的历史数据（开盘价，收盘价，最高价，最低价，交易量）回归预测
+######raw_data.csv 从Tushare中获取的股票数据
+######preprocess_data.py对交易量进行归一化，生成stock_data.csv
+######lstm.py搭建LSTM网络并进行预测，将注释删除可以查看每次训练20次后的预测价格
 ========================
-附输出误差结果（为减少输出数量，以下为50次训练的每次结果，对前200条数据进行预测）：
+######附输出误差结果（为减少输出数量，以下为50次训练的每次结果，对前200条数据进行预测）：
 cost( 0 ):  1393.7227
 cost( 50 ):  277.8622
 cost( 100 ):  110.7024
@@ -37,7 +37,7 @@ cost( 1300 ):  3.9418
 cost( 1350 ):  3.1127
 cost( 1400 ):  2.9791
 ========================
-附预测结果：
+######附预测结果：
 cost( 1300 ):  3.8635
 pred: 
 [[9.200998 ]
