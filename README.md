@@ -5,7 +5,7 @@ just using kinds of method of neural network to prediction financial market
 raw_data.csv 从Tushare中获取的股票数据
 preprocess_data.py对交易量进行归一化，生成stock_data.csv
 lstm.py搭建LSTM网络并进行预测，将注释删除可以查看每次训练20次后的预测价格
-======================
+========================
 附输出误差结果（为减少输出数量，以下为50次训练的每次结果，对前200条数据进行预测）：
 cost( 0 ):  1393.7227
 cost( 50 ):  277.8622
