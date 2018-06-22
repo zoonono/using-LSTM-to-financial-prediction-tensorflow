@@ -20,7 +20,7 @@ def get_batch():
         seq.append(df['volume'][i])
         seq.append(df['open'][i])
         seq.append(df['high'][i])
-    res = df['next_close'][TIME_STEPS-1:TIME_STEPS-1+TIME_STEPS*BATCH_SIZE]
+    res = df['next_close'][:TIME_STEPS*BATCH_SIZE]
     seq = np.array(seq).reshape(-1,20,5)
     res = np.array(res).reshape(-1,20,1)
     return [seq, res]
