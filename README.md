@@ -1,4 +1,4 @@
-## using-LSTm-to-financial-prediction<br>
+## financial-prediction-with-LSTM<br>
 ##### 主题：使用Long Short Term Memory (LSTM)长短期记忆神经网络去预测金融市场股票价格<br>
 ##### 细节：过去20天的历史数据（开盘价，收盘价，最高价，最低价，交易量）进行回归预测<br>
 ##### 1、raw_data.csv 为通过Tushare中获取的股票数据<br>
